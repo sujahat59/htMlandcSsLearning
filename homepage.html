@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Tracker Pro</title>
+    <link rel="stylesheet" href="styles.css">  
+</head>
+<body>
+
+    
+    <nav>
+        <h1>Bug Tracker Pro</h1>
+        <div>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Features</a>
+            <a href="#">Login</a>
+        </div>
+    </nav>
+
+    
+    <section class="hero">
+        <h1>Track and Fix Bugs Easily!</h1>
+        <h2>A simple and efficient way to report, track, and resolve software issues.</h2>
+        <button id="reportBtn">Report a Bug</button>
+    </section>
+
+    
+    <section class="bug-form text-center py-10">
+        <h2 class="text-2xl font-bold text-gray-800">Submit a Bug</h2>
+        <form id="bugForm">
+            <input type="text" id="bugTitle" placeholder="Bug Title" required>
+            <textarea id="bugDescription" placeholder="Describe the issue..." required></textarea>
+            <button type="submit">Submit Bug</button>
+        </form>
+    </section>
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
