@@ -66,3 +66,57 @@ button {
 button:hover {
     background-color: #3182ce; /* Darker Blue */
 }
+
+/* Bug Form */
+.bug-form {
+    background: #f7fafc;
+    padding: 40px 20px;
+}
+
+.bug-form input,
+.bug-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.bug-form button {
+    padding: 10px 20px;
+    background-color: #48bb78; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bug-form button:hover {
+    background-color: #38a169; /* Darker Green */
+}
+
+/* Bug List */
+.bug-list {
+    background: #edf2f7;
+    padding: 40px 20px;
+}
+
+.bug-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bug-list li {
+    background: white;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    width: 80%;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bug-list li strong {
+    color: #2d3748;
+}
