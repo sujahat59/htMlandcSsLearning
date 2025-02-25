@@ -3,6 +3,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 /* Navigation Bar */
@@ -16,7 +17,7 @@ nav {
 }
 
 nav h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -25,6 +26,7 @@ nav a {
     text-decoration: none;
     margin-left: 15px;
     transition: color 0.3s;
+    font-size: 1rem;
 }
 
 nav a:hover {
@@ -71,6 +73,7 @@ button:hover {
 .bug-form {
     background: #f7fafc;
     padding: 40px 20px;
+    text-align: center;
 }
 
 .bug-form input,
@@ -119,4 +122,56 @@ button:hover {
 
 .bug-list li strong {
     color: #2d3748;
+}
+
+/* Bug Card */
+.bug-card {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Closed Bug Styling */
+.bug-card.closed {
+    background-color: #d4edda;
+}
+
+/* Status Text */
+.bug-card p strong {
+    color: #2d3748;
+}
+
+/* Bug Card Buttons */
+.bug-card button {
+    margin: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.bug-card button:hover {
+    opacity: 0.8;
+}
+
+/* Delete Button */
+.bug-card button:first-child {
+    background-color: #e53e3e;
+    color: white;
+}
+
+/* Edit Button */
+.bug-card button:nth-child(2) {
+    background-color: #3182ce;
+    color: white;
+}
+
+/* Toggle Status Button */
+.bug-card button:last-child {
+    background-color: #48bb78;
+    color: white;
 }
